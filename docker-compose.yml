@@ -11,7 +11,7 @@ services:
     depends_on:
       - db
     environment:
-      - APACHE_DOCUMENT_ROOT=/var/www/html
+      - APACHE_DOCUMENT_ROOT=/var/www/html/public
     restart: unless-stopped
 
   # Base de données MySQL
