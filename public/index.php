@@ -53,9 +53,9 @@ $router = new Router();
 // Enregistrement des routes
 $router->addRoute('', 'HomeController@index');
 $router->addRoute('home', 'HomeController@index');
-$router->addRoute('login', 'AuthController@login');
-$router->addRoute('register', 'AuthController@register');
-$router->addRoute('logout', 'AuthController@logout');
+$router->addRoute('login', 'AuthControllers@login');
+$router->addRoute('register', 'AuthControllers@register');
+$router->addRoute('logout', 'AuthControllers@logout');
 $router->addRoute('profile', 'UserController@profile');
 $router->addRoute('feed', 'PostController@feed');
 $router->addRoute('post/create', 'PostController@create');
